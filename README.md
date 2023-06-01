@@ -30,33 +30,25 @@ To get a local copy of the Clients List web app up and running on your machine, 
 1\. Clone the repository to your local machine using the following command:
 
    ```
-
    git clone https://github.com/vlad-jsdev/list-clients.git
-
    ```
 
 2\. Navigate to the project directory:
 
    ```
-
    cd list-clients
-
    ```
 
 3\. Install the required dependencies using Yarn:
 
    ```
-
    yarn install
-
    ```
 
 4\. Start the development server:
 
    ```
-
    yarn start
-
    ```
 
 5\. Access the application by opening your web browser and visiting [http://localhost:3000](http://localhost:3000).
