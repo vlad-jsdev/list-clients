@@ -1,46 +1,92 @@
-# Getting Started with Create React App
+# Clients List Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application, called "Clients List" allows you to efficiently manage and organize information about your clients. With a responsive design, you can conveniently save, edit, delete, and sort client details based on your needs. The technology stack for this project includes TypeScript, React, and Redux Toolkit. The package manager used is Yarn.
 
-## Available Scripts
+### Start use
+[Clients List](https://vlad-jsdev.github.io/list-clients/)
+## Features
 
-In the project directory, you can run:
+- Save client information: Enter and store relevant details about your clients, such as their name, contact information, and any additional notes.
 
-### `yarn start`
+- Edit client details: Update and modify client information as required, ensuring your records are always up to date.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Delete clients: Easily remove clients from your list when necessary, maintaining a tidy and accurate database.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Sort clients list: Arrange your clients in ascending or descending order based on their names or any other relevant criteria.
 
-### `yarn test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- TypeScript: A statically-typed superset of JavaScript that enhances code quality and maintainability.
 
-### `yarn build`
+- React: A popular JavaScript library for building user interfaces, providing a component-based approach to web development.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Redux Toolkit: A package that simplifies Redux usage by providing a convenient set of abstractions, including simplified state management and actions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `yarn eject`
+To get a local copy of the Clients List web app up and running on your machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1\. Clone the repository to your local machine using the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   git clone https://github.com/vlad-jsdev/list-clients.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```
 
-## Learn More
+2\. Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   cd list-clients
+
+   ```
+
+3\. Install the required dependencies using Yarn:
+
+   ```
+
+   yarn install
+
+   ```
+
+4\. Start the development server:
+
+   ```
+
+   yarn start
+
+   ```
+
+5\. Access the application by opening your web browser and visiting [http://localhost:3000](http://localhost:3000).
+
+## Contributing
+
+Contributions to the Client List web app are welcome! If you would like to contribute, please follow these guidelines:
+
+1\. Fork the repository.
+
+2\. Create a new branch for your feature or bug fix: `git checkout -b my-new-feature`.
+
+3\. Make your changes and ensure the codebase remains clean and well-documented.
+
+4\. Commit your changes: `git commit -am 'Add some feature'`.
+
+5\. Push to the branch: `git push origin my-new-feature`.
+
+6\. Submit a pull request explaining your changes.
+
+Please ensure your pull request adheres to the project's code of conduct.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to reach out:
+
+- Email: [vladosxxx@gmail.com](mailto:vladosxxx@gmail.com)
+
+- GitHub: [vlad-jsdev](https://github.com/vlad-jsdev)
